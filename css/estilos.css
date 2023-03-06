@@ -256,5 +256,98 @@ footer{
     text-align: center;
 }
 
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #somos-proya .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-proya h2{
+        margin-top: 0px;
+    }
+
+    #somos-proya .img-container{
+    background-image: url("/img/img5.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 500px;
+    
+    }
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-top: 30px;
+    }
+
+    #nuestros-proramas h3{
+        margin-top: 0;
+    }
+
+    #nuestros-programas .content{
+        padding: 50px;
+    }
+
+    #caracteristicas{
+        background-image: url("/img/img6.png");
+        background-repeat: no-repeat;
+        background-size: 500px 300px;
+        background-position: calc(1000vw - 500px) 120px;
+
+
+    }
+
+    #caracteristicas .container{
+        text-align: initial;
+
+    }
+
+    #caracteristicas ul{
+        margin-left: 100px;
+    }
+
+    #aplica h2{
+        font-size: 5em;
+    }
+
+    #aplica button{
+        font-size: 2em;
+    }
+
+    }
+
 
 
